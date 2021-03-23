@@ -300,17 +300,17 @@ main .container {
     height: 150px;
     background-image: url(./img/white.png);
     background-size: cover;
-    top: 712px;
+    top: 742px;
 
 
 
 }
 
-.landing-page .container-fluid {
+.landing-page .container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 150px;
+    padding: 150px 0px;
 }
 
 
@@ -761,7 +761,7 @@ footer::after {
         display: none;
     }
 
-    .landing-page .container-fluid {
+    .landing-page .container {
         flex-direction: column-reverse;
         padding: 30px;
     }
@@ -885,11 +885,14 @@ footer::after {
 
     .landing-page {
         background-image: none;
+        background-color: #5454D4;
     }
 
-    .landing-page .container-fluid {
-        padding: 30px;
+    .landing-page .container {
+        padding: 20px;
         flex-direction: column-reverse;
+        margin: 70px 0px;
+        
     }
 
     .landing-page-info {
@@ -897,12 +900,10 @@ footer::after {
     }
 
     .landing-page-info-title {
-        color: black;
         text-align: center;
     }
 
     .landing-page-info-text {
-        color: black;
         text-align: center;
     }
 
@@ -937,6 +938,7 @@ footer::after {
 
     .comments-item {
         width: 45%;
+       
     }
 
     .footer::after {
@@ -952,9 +954,9 @@ footer::after {
     .check-all-features {
         display: inline-block;
         padding: 18px 30px;
-        border: 2px solid black;
+        border: 2px solid white;
         border-radius: 5px;
-        color: black;
+        color: white;
         text-decoration: none;
         font-size: 18px;
         transition: 0.3s;
@@ -997,9 +999,9 @@ footer::after {
     .check-all-features {
         display: inline-block;
         padding: 18px 30px;
-        border: 2px solid black;
+        border: 2px solid white;
         border-radius: 5px;
-        color: black;
+        color: white;
         text-decoration: none;
         font-size: 18px;
         transition: 0.3s;
@@ -1007,8 +1009,8 @@ footer::after {
     }
 
     .check-all-features:hover {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
 
     }
 
@@ -1132,6 +1134,7 @@ footer::after {
 
     .comments-item {
         width: 90%;
+        margin: 10px 0px;
     }
 }
 
