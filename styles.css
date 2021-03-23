@@ -1221,6 +1221,10 @@ footer::after {
          text-align: justify;
      }
 
+     .footer {
+         background-size: cover;
+     }
+
      
      .footer .container {
          flex-direction: column;
