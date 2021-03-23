@@ -1222,6 +1222,7 @@ footer::after {
      }
 
      .footer {
+         background-color: #19191B;
          background-size: cover;
      }
 
