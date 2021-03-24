@@ -886,6 +886,7 @@ footer::after {
     .landing-page {
         background-image: none;
         background-color: #5454D4;
+        background-size: cover;
     }
 
     .landing-page .container {
@@ -1192,7 +1193,7 @@ footer::after {
     }
 
     .check-all-features {
-        margin-left: 25px;
+        margin-left: 10px;
     }
 
     .multiple-layout {
@@ -1309,6 +1310,18 @@ footer::after {
 
     .company-list {
         margin-left: 100px;
+    }
+
+    .design-item {
+        width: 320px;
+    }
+
+    .design-info {
+        font-size: 18px;
+    }
+
+    .design-span {
+        font-size: 15px;
     }
 
   
