@@ -1313,15 +1313,27 @@ footer::after {
     }
 
     .design-item {
-        width: 320px;
+        width: 280px;
     }
 
     .design-info {
-        font-size: 18px;
+        font-size: 17px;
+        margin: 15px;
     }
 
     .design-span {
         font-size: 15px;
+    }
+
+    .first-man-info {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-man-text {
+        text-align: center;
     }
 
   
