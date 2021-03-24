@@ -563,6 +563,7 @@ footer {
     background-image: url(./img/Oval.svg), linear-gradient(#19191B, #19191B);
     background-repeat: no-repeat;
     background-position: top left, center center;
+    
 }
 
 footer::after {
