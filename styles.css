@@ -573,6 +573,7 @@ footer::after {
     width: 100%;
     height: 100px;
     background-image: url(./img/last-wave.svg);
+    background-repeat: no-repeat;
     top: 0%;
 }
 
@@ -743,15 +744,23 @@ footer::after {
     }
     .main-info-section {
         width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .main-img-section {
         display: block;
-        width: 50%;
+        width: 45%;
     }
 
     .main-info-text {
-        width: 380px;
+        text-align: center;
+        width: 400px;
+        margin: 0px;
+        margin-bottom: 20px;
+
     }
 
     .get-started2-link {
@@ -763,8 +772,10 @@ footer::after {
     }
 
     .landing-page .container {
+        display: flex;
         flex-direction: column-reverse;
-        padding: 30px;
+        align-items: center;
+        justify-content: center;
     }
     .landing-page-info {
         width: 90%;
@@ -788,6 +799,7 @@ footer::after {
     .check-all-features {
         margin-left: 350px;
         margin-bottom: 50px;
+        
     }
 
     .landing-page-list-section {
@@ -795,7 +807,7 @@ footer::after {
     }
 
     .multiple-layout {
-        width: 40%;
+        width: 47%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -803,6 +815,44 @@ footer::after {
     }
     .multiple-layout-text {
         text-align: center;
+    }
+
+    .get-started-section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .first-man-info, .second-man-info {
+        margin-left: 0px;
+        width: 45%;
+        
+    }
+
+    .first-man-photo, .second-man-photo {
+        width: 45%;
+    }
+
+    .comments-section .container {
+        margin: 0px;
+    }
+
+    .comments-item {
+        margin-top: 25px;
+    }
+
+    .see-all-link {
+        display: block;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    footer .container {
+        padding: 0px 20px;
+        margin: 0px;
     }
 }
 
@@ -818,22 +868,19 @@ footer::after {
     }
 
     main .container {
-        justify-content: space-evenly;
+        margin: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 40px;
     }
 
     .nav-list {
-        margin-left: 240px;
+        margin-left: 300px;
     }
 
-    .main-info-section {
-        width: 40%;
+    .get-start {
+       margin-left: 50px;
     }
-
-    .main-img-section {
-        display: block;
-        width: 50%;
-    }
-
 
     .check-all-features {
         display: inline-block;
@@ -846,24 +893,48 @@ footer::after {
         transition: 0.3s;
         margin-left: 280px;
     }
+
+    .main-img-section {
+        width: 40%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main-info-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .main-info-title {
         font-size: 45px;
         line-height: 45px;
-        text-align: left;
-        margin: 0px;
-        width: 300px;
-        height: 130px;
+        text-align: center;
     }
 
     .main-info-text {
-        margin: 20px 0px 80px 0px;
-        width: 300px;
-        text-align: justify;
+        text-align: center;
+
         
     }
 
     .get-started2-link {
         margin-top: 120px;
+    }
+
+    .company-section .company-section {
+        margin: 0px;
+    }
+
+    .company-list {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+
+    .company-item {
+        margin: 0px;
     }
 
     
@@ -873,16 +944,6 @@ footer::after {
         margin: 0 auto;
     }
 
-    .company-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-    }
-
-    .company-link {
-        width: 45%;
-    }
 
     .landing-page {
         background-image: none;
@@ -1293,7 +1354,7 @@ footer::after {
 
 
     .last-section {
-        padding-bottom: 30pxs;
+        padding-bottom: 30px;
         
     }
 
