@@ -34,9 +34,8 @@ body {
     margin: 0 auto;
 }
 
-.container-fluid {
+nav .container {
     display: flex;
-    width: 1280px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -187,14 +186,17 @@ nav .container-fluid {
 main .container {
     display: flex;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
+
+.main-info-section {
+    width: 50%;
+}
 .main-info-title {
-    width: 691px;
-    height: 252px;
     left: 242px;
     top: 267px;
-    font-size: 80px;
+    font-size: 65px;
     line-height: 84px;
     letter-spacing: -2.50105px;
     color: #19191B
@@ -211,7 +213,7 @@ main .container {
     letter-spacing: -0.656526px;
     color: #696871;
     padding: 25px 0px;
-    margin: 25px 0px;
+    margin: 0px 0px;
 }
 
 .get-started2-link {
@@ -413,16 +415,18 @@ main .container {
 
 .first-man {
     display: flex;
+    justify-content: space-between;
 }
 
 .second-man {
     display: flex;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
 .first-man-info {
     width: 50%;
-    margin-left: 70px;
+   
 }
 
 .first-man-photo .second-man-photo {
@@ -432,7 +436,6 @@ main .container {
 
 .second-man-info {
     width: 35%;
-    margin-left: 50px;
 }
 
 .first-man-title {
@@ -467,6 +470,9 @@ main .container {
 }
 
 .design-item {
+    cursor: pointer;
+    transition: 0.5s pointer;
+
     padding-left: 15px;
     display: flex;
     width: 350px;
