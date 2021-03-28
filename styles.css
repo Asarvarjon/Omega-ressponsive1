@@ -1174,8 +1174,20 @@ footer::after {
 
     .company-list {
         margin-bottom: 40px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
+    .company-text {
+        font-size: 16px;
+    }
+
+    .company-item {
+        width: 20%;
+    }
     
     .main-info-text {
         width: 100%;
@@ -1254,205 +1266,11 @@ footer::after {
         width: 90%;
         margin: 10px 0px;
     }
-}
 
+
+}
 @media (max-width:620px) {
     .container {
-        width: 90%;
+        width: 500px;
     }
-
-    .get-start {
-        display: none;
-    }
-
-    .fas {
-        display: block;
-        margin-left: auto;
-    }
-
-    .nav-list {
-        display: none;
-    }
-
-    .company-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .company-link {
-        margin: 15px 0px;
-    }
-
-    .landing-page-list-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .landing-page-info-title {
-        width: 90%;
-        text-align: center;
-    }
-
-    .landing-page-info-text {
-        width: 100%;
-        text-align: justifys;
-    }
-
-
-    .multiple-layout {
-        width: 80%;
-        margin: 15px 0px;
-    }
-
-    .landing-page-info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .check-all-features {
-        margin-left: 10px;
-    }
-
-    .multiple-layout {
-        width: 100%;
-    }
-
-    .multiple-layout-name {
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .multiple-layout-text {
-        font-size: 18px;
-    }
-
-     .comments-list {
-         flex-direction: column;
-         align-items: center;
-     }
-
-     .comments-item {
-         width: 80%;
-     }
-
-
-     .main-img-section {
-         display: block;
-         margin-bottom: 25px;
-     }
-
-
-
-     .main-info-text {
-         margin-top: 140px;
-         text-align: justify;
-     }
-
-     .get-started2-link {
-         margin-top: 100px;
-     }
-
-
-     .landing-page-info-text {
-         text-align: justify;
-        
-         
-     }
-
-     .first-man-text {
-         text-align: justify;
-     }
-
-     .footer {
-         background-image: none;
-         background-color: #19191B;
-         background-size: cover;
-     }
-
-     
-     .footer .container {
-         flex-direction: column;
-         align-items: center;
-     }
-
-    
-
-     .footer-form {
-         flex-direction: column;
-         align-items: center;
-         margin-top: 10px;
-     }
-
-     .get-started-button {
-         width: 320px;
-     }
-
-    .footer-text {
-       display: none;
-    }
-    .form-input {
-        width: 320px;
-    }
-
-    .footer-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .footer-sub-list {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      margin-top: 10px;
-    }
-
-
-    .last-section {
-        padding-bottom: 30px;
-        
-    }
-
-    .social-icons {
-        display: none;
-    }
-
-    .last-section-text {
-        text-align: center;
-    }
-
-    .company-text {
-        text-align: center;
-    }
-
-    .company-list {
-        margin-left: 100px;
-    }
-
-    .design-item {
-        width: 280px;
-    }
-
-    .design-info {
-        font-size: 17px;
-        margin: 15px;
-    }
-
-    .design-span {
-        font-size: 15px;
-    }
-
-    .first-man-info {
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .first-man-text {
-        text-align: center;
-    }
-
-  
 }
-
