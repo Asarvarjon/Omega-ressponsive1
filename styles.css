@@ -1099,7 +1099,23 @@ footer::after {
 
     .get-started2-link {
         margin-top: 40px;
+        width: 45%;
     }
+
+    .see-all-link {
+        margin: 20px 0px;
+    }
+
+    
+    .landing-page-info-title, .main-info-title , .first-man-title, .comments-title, .footer-title {
+        font-size: 36px;
+    }
+
+    .main-info-text {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
 }
 
 @media (max-width:720px) {
@@ -1112,13 +1128,15 @@ footer::after {
     }
 
 
+
+
     .multiple-layout {
         width: 35%;
     }
 
     .multiple-layout-name {
         font-size: 18px;
-        text-align: center;
+        
     }
 
     .multiple-layout-text {
@@ -1138,17 +1156,24 @@ footer::after {
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
     .main-img-section {
-        width: 100%;
+        width: 60%;
         margin: 20px auto 20px auto;
     }
+
+
 
     .main-info-title {
         width: 100%;
         text-align: center;
       
+    }
+
+    .company-list {
+        margin-bottom: 40px;
     }
 
     
@@ -1162,15 +1187,25 @@ footer::after {
         flex-direction: column;
         align-items: center;
     }
+    .get-started2-link {
+        width: 30%;
+    }
 
     .check-all-features {
         margin-left: -25px;
     }
 
+    .multiple-layout {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }   
     .first-man, .second-man {
         width: 90%;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .first-man-info {
@@ -1232,7 +1267,7 @@ footer::after {
 
     .fas {
         display: block;
-        margin-left: 185px;
+        margin-left: auto;
     }
 
     .nav-list {
